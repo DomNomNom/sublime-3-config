@@ -7,4 +7,5 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
+    // manual edit: https://stackoverflow.com/questions/33191173/sublime-text-3-showing-unnecessary-output
 }
