@@ -1,10 +1,11 @@
 [
+    { "keys": ["super+up"], "command": "swap_line_up" },
+    { "keys": ["super+down"], "command": "swap_line_down" },
     { "keys": ["alt+up"], "command": "swap_line_up" },
     { "keys": ["alt+down"], "command": "swap_line_down" },
-
     { "keys": ["alt+right"], "command": "indent" },
     { "keys": ["alt+left"], "command": "unindent" },
 
-    { "keys": ["command+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
-    { "keys": ["command+shift+d"], "command": "find_under_expand" }
+    { "keys": ["home"], "command": "move_to", "args": { "to": "bol" } },
+    { "keys": ["end"], "command": "move_to", "args": { "to": "eol" } }
 ]

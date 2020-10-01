@@ -3,8 +3,5 @@
     { "keys": ["alt+down"], "command": "swap_line_down" },
 
     { "keys": ["alt+right"], "command": "indent" },
-    { "keys": ["alt+left"], "command": "unindent" },
-
-    { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
-    { "keys": ["ctrl+shift+d"], "command": "find_under_expand" }
+    { "keys": ["alt+left"], "command": "unindent" }
 ]
