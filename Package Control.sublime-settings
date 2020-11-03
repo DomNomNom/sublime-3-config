@@ -5,6 +5,11 @@
 	],
 	"installed_packages":
 	[
+		"Case Conversion",
+		"GitHubinator",
+		"GraphQL",
+		"Hooks",
+		"Package Control",
 		"TOML"
 	]
 }

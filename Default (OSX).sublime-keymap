@@ -6,6 +6,22 @@
     { "keys": ["alt+right"], "command": "indent" },
     { "keys": ["alt+left"], "command": "unindent" },
 
-    { "keys": ["home"], "command": "move_to", "args": { "to": "bol" } },
-    { "keys": ["end"], "command": "move_to", "args": { "to": "eol" } }
+    { "keys": ["super+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["super+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
+    { "keys": ["super+shift+d"],  "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} }
+
+
+
+    // The following ones are redundant by DefaultKeyBinding.Dict
+    // { "keys": ["super+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+    // { "keys": ["super+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+    // { "keys": ["super+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+    // { "keys": ["super+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+    // { "keys": ["super+left"], "command": "move", "args": {"by": "words", "forward": false} },
+    // { "keys": ["super+right"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+    // { "keys": ["shift+home"], "command": "select_to_begofline"},
+    // { "keys": ["shift+end"], "command": "select_to_endofline"},
+    // { "keys": ["home"], "command": "move_to", "args": { "to": "bol" } },
+    // { "keys": ["end"], "command": "move_to", "args": { "to": "eol" } }
 ]

@@ -19,11 +19,13 @@ Shell:
 
 MacOS:
 use iTerm2.
+https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically
 System Settings -> keyboard -> map capslock to control
+`subl ~/Library/KeyBindings/DefaultKeyBinding.Dict`
 Make text nagivation shortcuts similar to Linux/Windows: http://benogle.com/2010/01/18/windowslinux-developers-remap-your-mac.html
 
 
-    /* subl ~/Library/KeyBindings/DefaultKeyBinding.Dict
+    /*
     This file remaps the key bindings of a single user on Mac OS X 10.5 to more closely
     match default behavior on Windows systems.  This particular mapping assumes
     that you have also switched the Control and Command keys already.
@@ -62,6 +64,20 @@ Make text nagivation shortcuts similar to Linux/Windows: http://benogle.com/2010
     */
 
     {
+    "@\UF702"  = "moveWordBackward:";                            // Cmd  + LeftArrow
+    "@\UF703"  = "moveWordForward:";                             // Cmd  + RightArrow
+    "@$\UF702" = "moveWordBackwardAndModifySelection:";   // Shift + Cmd  + Leftarrow
+    "@$\UF703" = "moveWordForwardAndModifySelection:";   // Shift + Cmd  + Rightarrow
+    "\UF729"  = "moveToBeginningOfLine:"; // home
+    "\UF72B"  = "moveToEndOfLine:"; // end
+    "$\UF729" = "moveToBeginningOfLineAndModifySelection:"; // shift-home
+    "$\UF72B" = "moveToEndOfLineAndModifySelection:"; // shift-end
+    "@\UF728" = "deleteWordBackward:"; // Cmd + Delete
+    "@$\UF728" = "deleteWordForward:"; // Cmd + Shift + Delete
+
+
+
+
     "\UF729"   = "moveToBeginningOfLine:";                       /* Home         */
     "@\UF729"  = "moveToBeginningOfDocument:";                   /* Cmd  + Home  */
     "$\UF729"  = "moveToBeginningOfLineAndModifySelection:";     /* Shift + Home */
