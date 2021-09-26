@@ -1,14 +1,15 @@
 {
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"always_show_minimap_viewport": true,
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"save_on_focus_lost": true,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
 }

@@ -1,0 +1,14 @@
+[
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+    { "keys": ["super+up"], "command": "swap_line_up" },
+    { "keys": ["super+down"], "command": "swap_line_down" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+    { "keys": ["alt+left"], "command": "unindent" },
+	{ "keys": ["alt+right"], "command": "indent" },
+
+    { "keys": ["super+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["super+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
+    { "keys": ["ctrl+shift+d"],  "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} }
+
+]

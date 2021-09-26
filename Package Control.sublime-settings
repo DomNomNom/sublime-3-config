@@ -5,11 +5,9 @@
 	],
 	"installed_packages":
 	[
-		"Case Conversion",
-		"GitHubinator",
-		"GraphQL",
-		"Hooks",
+		"Markdown Extended",
+		"MarkdownPreview",
 		"Package Control",
-		"TOML"
-	]
+		"Unity Shader",
+	],
 }
