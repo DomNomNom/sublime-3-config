@@ -5,9 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"AutoHotkey",
+		"Case Conversion",
 		"Markdown Extended",
 		"MarkdownPreview",
+		"OpenScad",
 		"Package Control",
+		"SublimeAStyleFormatter",
 		"Unity Shader",
 	],
 }

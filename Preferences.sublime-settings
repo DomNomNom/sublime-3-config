@@ -2,7 +2,7 @@
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"always_show_minimap_viewport": true,
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 13,
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -12,4 +12,16 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+
+    "AStyleFormatter": {
+    	"options_default": {
+	    	"style": "google",
+	    	"add-brackets": true,
+
+    	},
+    },
+	"added_words":
+	[
+		"https",
+	],
 }
